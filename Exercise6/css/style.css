@@ -1,0 +1,43 @@
+table{
+text-align:center;
+color: black;
+}
+#home{
+font-weight:bold;
+font-size:56px;
+text-align:center;
+font-family: san-serif;
+color: gray;
+}
+td, tr, th{
+border:3px solid;
+font-size:20px;
+font-family:verdana;
+font-weight:bold;
+color: white;
+}
+.t{
+font-family:sans-serif;
+font-weight:bold;
+font-size:18px;
+color: lightblue;
+}
+#t{
+font-family:sans-serif;
+font-weight:bold;
+font-size:16px;
+color: lightblue;
+}
+.a{
+font-family:sans-serif;
+font-weight:bold;
+font-size:18px;
+color: lightblue;
+}
+h1{
+font-size:20px;
+font-family:verdana;
+font-weight:bold;
+color: white;
+background-color:black;
+}
