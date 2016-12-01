@@ -5,12 +5,12 @@
 div.container {
     width: 99%;
     height: 100%;
-    border: 10px solid blue;
+    border: 10px solid black;
 }
 header, footer {
     padding: 1em;
     color: blue;
-    background-color: solid blue;
+    background-color: solid black;
     clear: left;
     text-align: center;
 
