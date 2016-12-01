@@ -69,6 +69,8 @@ function delete_id(id)
 
 <div id="body">
  <div id="content">
+ 
+ <a href="mypage.php">HOME</a>
     <table align="center">
     <tr>
     <th colspan="9"><a href="add_data.php">add data here.</a></th>
