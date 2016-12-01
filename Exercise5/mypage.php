@@ -26,8 +26,6 @@ article {
 </head>
 <body>
 <div class="container">
-<header>
-   <img src="hi.gif" style="width:1000px;height:500px;">
 </header>
 
 <h2><a href="index.php">DATABASE SQL</a></h2>
