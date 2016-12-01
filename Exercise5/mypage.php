@@ -24,7 +24,8 @@ article {
 
 </style>
 </head>
-<body>
+<body style="background-image: url(blue.jpg);">
+
 <div class="container">
 </header>
 
@@ -33,6 +34,7 @@ article {
 <article>
   <h1>About me</h1>
 <style>
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
