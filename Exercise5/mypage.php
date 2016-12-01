@@ -2,6 +2,12 @@
 <html>
 <head>
 <style>
+body {
+	
+	color: gray;
+}
+
+
 div.container {
     width: 99%;
     height: 100%;
@@ -20,20 +26,6 @@ article {
     padding: 2em;
     overflow: hidden;
 }
-
-
-</style>
-</head>
-<body style="background-image: url(blue.jpg);">
-
-<div class="container">
-</header>
-
-<h2><a href="index.php">DATABASE SQL</a></h2>
-
-<article>
-  <h1>About me</h1>
-<style>
 
 table {
     font-family: arial, sans-serif;
@@ -60,6 +52,21 @@ a {
 a:hover {
 	color: blue;
 }
+
+</style>
+</head>
+<body style="background-image: url(blue.jpg);">
+
+<div class="container">
+</header>
+
+<h2><a href="index.php">DATABASE SQL</a></h2>
+
+<article>
+  <h1>About me</h1>
+<style>
+
+
 </style>
 </head>
 </body>
