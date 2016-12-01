@@ -58,7 +58,7 @@ function delete_id(id)
 }
 </script>
 </head>
-<body style="background-image: url(black.jpg);">
+<body style="background-image: url(white.jpg);">
 <center>
 
 <div id="header">
