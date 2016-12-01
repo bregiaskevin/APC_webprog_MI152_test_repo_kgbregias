@@ -5,12 +5,12 @@
 div.container {
     width: 99%;
     height: 100%;
-    border: 10px solid black;
+    border: 10px solid blue;
 }
 header, footer {
     padding: 1em;
     color: blue;
-    background-color: black;
+    background-color: solid blue;
     clear: left;
     text-align: center;
 
@@ -58,7 +58,7 @@ a {
 }
 
 a:hover {
-	color: black;
+	color: blue;
 }
 </style>
 </head>
