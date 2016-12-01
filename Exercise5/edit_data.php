@@ -10,7 +10,7 @@ if(isset($_POST['btn-update']))
 {
  // variables for input data
  $full_name = $_POST['full_name'];
- $nickname = $_POST['nickname'];
+ $nick_name = $_POST['nick_name'];
  $email = $_POST['email'];
  $address = $_POST['address'];
  $gender = $_POST['gender'];
