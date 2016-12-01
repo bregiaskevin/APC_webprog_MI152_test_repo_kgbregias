@@ -17,7 +17,7 @@ if(isset($_POST['btn-save']))
  
         $sql_query = "INSERT INTO users(complete_name,nickname,email,address,gender,number,comment) 
 		VALUES('$complete_name','$nickname','$email','$address','$gender','$number','$comment')";
- mysql_query($sql_query);
+ mysqli_query($sql_query);
         
         // sql query for inserting data into database
  
