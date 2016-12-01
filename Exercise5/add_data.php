@@ -1,5 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+<title> DATABASE </title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+
 <?php
+
 include_once 'dbconfig.php';
 if(isset($_POST['btn-save']))
 {
@@ -20,7 +27,7 @@ if(isset($_POST['btn-save']))
  }
 ?>
 <center>
-
+<body style="background-image: url(white.jpg);">
 <div id="header">
  <div id="content">
     <label>Please fill out the form.</label>
@@ -139,7 +146,7 @@ if(isset($_POST['btn-save']))
 			<span class="error">* <?php echo $emailErr;?></span></td>
     </tr>
 	<tr>
-    <td><textarea name="home_add" placeholder ="home address" rows ="2" cols="30"><?php echo $home_add;?></textarea>></span></td>
+    <td><textarea name="home_add" placeholder ="home address" rows ="2" cols="100"><?php echo $home_add;?></textarea></span></td>
     </tr>
 
 	<tr>
@@ -168,3 +175,4 @@ if(isset($_POST['btn-save']))
 
 </center>
 </body>
+</html>

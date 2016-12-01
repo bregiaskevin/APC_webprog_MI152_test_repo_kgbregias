@@ -3,7 +3,7 @@ include_once 'dbconfig.php';
 if(isset($_GET['edit_id']))
 {
  $sql_query="SELECT * FROM users WHERE user_id=".$_GET['edit_id'];
- $result_set=mysqli_query($sql_query);
+ $result_set=mysqli_query($con, $sql_query);
  $fetched_row=mysqli_fetch_array($result_set);
 }
 if(isset($_POST['btn-update']))
@@ -12,18 +12,18 @@ if(isset($_POST['btn-update']))
  $full_name = $_POST['full_name'];
  $nick_name = $_POST['nick_name'];
  $email = $_POST['email'];
- $address = $_POST['address'];
+ $home_add = $_POST['home_add'];
  $gender = $_POST['gender'];
- $number = $_POST['number'];
+ $cell_num = $_POST['cell_num'];
  $comment = $_POST['comment'];
  // variables for input data
 
  // sql query for update data into database
- $sql_query = "UPDATE users SET complete_name='$complete_name',nickname='$nickname',email='$email',address='$address' ,gender='$gender',number='$number',comment='$comment' WHERE user_id=".$_GET['edit_id'];
+ $sql_query = "UPDATE users SET full_name='$full_name',nick_name='$nick_name',email='$email',home_add='$home_add' ,gender='$gender',cell_num='$cell_num',comment='$comment' WHERE user_id=".$_GET['edit_id'];
  // sql query for update data into database
  
  // sql query execution function
- if(mysqli_query($sql_query))
+ if(mysqli_query($con, $sql_query))
  {
   ?>
   <script type="text/javascript">
@@ -54,7 +54,7 @@ if(isset($_POST['btn-cancel']))
 <title>Edit Page</title>
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
-<body style="background-image: url(black.jpg);">
+<body style="background-image: url(white.jpg);">
 <center>
 
 <div id="header">
@@ -68,16 +68,16 @@ if(isset($_POST['btn-cancel']))
     <form method="post">
     <table align="center">
     <tr>
-    <td><input type="text" name="complete_name" placeholder="Complete Name" value="<?php echo $fetched_row['complete_name']; ?>" required /></td>
+    <td><input type="text" name="full_name" placeholder="Complete Name" value="<?php echo $fetched_row['full_name']; ?>" required /></td>
     </tr>
     <tr>
-    <td><input type="text" name="nickname" placeholder="Nickname" value="<?php echo $fetched_row['nickname']; ?>" required /></td>
+    <td><input type="text" name="nick_name" placeholder="Nickname" value="<?php echo $fetched_row['nick_name']; ?>" required /></td>
     </tr>
     <tr>
     <td><input type="text" name="email" placeholder="Email address" value="<?php echo $fetched_row['email']; ?>" required /></td>
     </tr>
 	<tr>
-    <td><input type="text" name="address" placeholder="Home address" value="<?php echo $fetched_row['address']; ?>" required /></td>
+    <td><input type="text" name="home_add" placeholder="Home address" value="<?php echo $fetched_row['home_add']; ?>" required /></td>
     </tr>
 	<tr>
     <td>
@@ -86,7 +86,7 @@ if(isset($_POST['btn-cancel']))
 	</td>
     </tr>
 	<tr>
-    <td><input type="number" name="number" placeholder="number Number" value="<?php echo $fetched_row['number']; ?>" required /></td>
+    <td><input type="number" name="cell_num" placeholder="number Number" value="<?php echo $fetched_row['cell_num']; ?>" required /></td>
     </tr>
 	 <td>Comment: <br>
 	 <textarea name="comment" rows="5" cols="144"><?php echo $fetched_row['comment']; ?></textarea>
