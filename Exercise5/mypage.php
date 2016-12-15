@@ -140,7 +140,7 @@ background-color: gray;
 <th>
 <p>MY DREAM.</p>
 <p image id="aboutme"  style="display:none"><img id="myImage" src="businessman.jpg" style="width:500px">
-<br>I have dream to become a businessman and a stable company.
+<br>I have dream to become a businessman and to have a stable company.
 <br>I want it to be simple but known worldwid.
 <br>After being stalbe, I want to help those who're in need.
 <br>I'll have my own charity and help others.</p>
