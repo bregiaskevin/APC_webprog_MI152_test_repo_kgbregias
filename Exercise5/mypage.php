@@ -151,7 +151,7 @@ background-color: gray;
 <p>MY HOBBIES.</p>
 
 <p id="t1" style="display:none"><img id="myImage" src="boxing1.jpg" style="width:500px">
-<br>Ever since I was a kid I really like watching boxing and playing games.
+<br>Ever since I was a kid I really like to watch boxing matches and playing games.
 <br>Here is a photo of my idol Muhammad Ali with his favorite quote. 
 <br>It helps me relax and I like imitating my idol doing his moves.</p>
 
