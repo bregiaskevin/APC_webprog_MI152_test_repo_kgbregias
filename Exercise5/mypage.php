@@ -169,7 +169,7 @@ He's really adorable and his wagging tail beats the stress out of me every time 
 
 <th><p>MY FAVORITE WEBSITES.</p>
 <p id="t3" style="display:none"><img id="myImage" src="image.jpg" style="width:500px">
-<br>My favorite website are Facebook, Youtube and Instagram.<br>
+<br>My favorite websites are Facebook, Youtube and Instagram.<br>
 But, I got my eyes on Ingstagram because I really like looking at beautiful images.<br>
 People share their memorable moments or one of a kind experiences and it makes me feel hapyy<br>
 whenever I see some of those.
