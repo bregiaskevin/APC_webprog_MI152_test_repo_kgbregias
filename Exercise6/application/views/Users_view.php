@@ -232,7 +232,7 @@ whenever I see some of those.
 
 <th><p>What makes me happy?</p>
 <p id="t4" style="display:none"><img id="myImage" src="http://localhost/Exercise6/img/happy.jpg" style="width:500px">
-<br>I like looking at comedy pictures to laugh till I hurt my stomach.
+<br>I like looking at some comedy pictures to laugh till I hurt my stomach.
 
 </p>
 
