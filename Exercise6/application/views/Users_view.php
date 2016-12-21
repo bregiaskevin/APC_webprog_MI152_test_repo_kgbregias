@@ -156,7 +156,7 @@ article {
   </tr>
   <tr>
 <td><p>Kevin Cliff G. Bregias</p> 
-<p>or sometimes my closest friends
+<p>or sometimes my friends
 </p> calls me "Doge" </td>
 <td>
 <h1>Boxing and Gaming</h1>
