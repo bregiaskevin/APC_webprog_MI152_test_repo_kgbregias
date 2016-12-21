@@ -190,7 +190,7 @@ background-color: gray;
 <h1>DO YOU WANT TO KNOW MORE ABOUT ME?</h1>
 <th>
 <p>MY DREAM.</p>
-<p image id="aboutm"  style="display:none"><img id="myImage" src="http://localhost/Exercise6/img/businessman.jpg" style="width:500px">
+<p image id="aboutme"  style="display:none"><img id="myImage" src="http://localhost/Exercise6/img/businessman.jpg" style="width:500px">
 <br>I have dream to become a businessman and to have a stable company.
 <br>I want it to be simple but known worldwide.
 <br>After being stalbe, I want to help those who're in need.
