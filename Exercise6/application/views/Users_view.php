@@ -45,7 +45,7 @@ article {
 <body>
 <div class="container">
 <header>
-   <img src="<?php echo base_url();?>img/hi.gif" style="width:1000px;height:500px;">
+   <img src="http://localhost/Exercise6/img/hi.gif" style="width:1000px;height:500px;">
 </header>
 
 <article>
@@ -162,20 +162,20 @@ article {
 </p> calls me "Doge" </td>
 <td>
 <h1>Boxing and Gaming</h1>
-<img src="<?php echo base_url();?>img/boxing.jpg" style="width:200px;height:150px;" >
-<img src="<?php echo base_url();?>img/gaming.jpg" style="width:200px;height:150px;">
+<img src="http://localhost/Exercise6/img/boxing.jpg" style="width:200px;height:150px;" >
+<img src="http://localhost/Exercise6/img/gaming.jpg" style="width:200px;height:150px;">
 </td>
  <td>
 <h2>Animals and Photography</h2>
-<img src="<?php echo base_url();?>img/animals.jpg" style="width:200px;height:150px;">
-<img src="<?php echo base_url();?>img/photography.jpg" style="width:200px;height:150px;">
+<img src="http://localhost/Exercise6/img/animals.jpg" style="width:200px;height:150px;">
+<img src="http://localhost/Exercise6/img/photography.jpg" style="width:200px;height:150px;">
 </td>
 <td>
 <a href="https://www.facebook.com/">
-  <img src="<?php echo base_url();?>img/fb.jpg" style="width:px200;height:150px;">
+  <img src="http://localhost/Exercise6/img/fb.jpg" style="width:px200;height:150px;">
 </a> 
 <a href="https://www.instagram.com/">
-<img src="<?php echo base_url();?>img/ig.jpg" style="width:px200;height:150px;">
+<img src="http://localhost/Exercise6/img/ig.jpg" style="width:px200;height:150px;">
 </a>
 </td>
   </tr>
@@ -192,7 +192,7 @@ background-color: gray;
 <h1>KNOW MORE??</h1>
 <th>
 <p>MY DREAM.</p>
-<p image id="aboutme"  style="display:none"><img id="myImage" src="<?php echo base_url();?>img/businessman.jpg" style="width:500px">
+<p image id="aboutme"  style="display:none"><img id="myImage" src="http://localhost/Exercise6/img/businessman.jpg" style="width:500px">
 <br>I have dream to become a businessman and a stable company.
 <br>I want it to be simple but known worldwid.
 <br>After being stalbe, I want to help those who're in need.
@@ -203,7 +203,7 @@ background-color: gray;
 <th>
 <p>MY HOBBIES.</p>
 
-<p id="t1" style="display:none"><img id="myImage" src="<?php echo base_url();?>img/boxing1.jpg" style="width:500px">
+<p id="t1" style="display:none"><img id="myImage" src="http://localhost/Exercise6/img/boxing1.jpg" style="width:500px">
 <br>Ever since I was a kid I really like watching boxing and playing games.
 <br>Here is a photo of my idol Muhammad Ali with his favorite quote. 
 <br>It helps me relax and I like imitating my idol doing his moves.</p>
@@ -212,7 +212,7 @@ background-color: gray;
 </th>
 
 <th><p>MY INTEREST.</p>
-<p id="t2" style="display:none"><img id="myImage" src="<?php echo base_url();?>img/doge.jpg" style="width:500px">
+<p id="t2" style="display:none"><img id="myImage" src="http://localhost/Exercise6/img/doge.jpg" style="width:500px">
 <br>I REALLYYYYYYYYY LOVEEEEE ANIMALS ESPECIALLY DOGS!<br>
 I actually have a dog which is a half chihuahua and a douchound.<br>
 He's really adorable and his wagging tail beats the stress out of me every time I go home.<br>
@@ -221,7 +221,7 @@ He's really adorable and his wagging tail beats the stress out of me every time 
 <button type="button" onclick="document.getElementById('t2').style.display='block'">CLICK THIS!</button></th>
 
 <th><p>MY FAVORITE WEBSITES.</p>
-<p id="t3" style="display:none"><img id="myImage" src="<?php echo base_url();?>img/image.jpg" style="width:500px">
+<p id="t3" style="display:none"><img id="myImage" src="http://localhost/Exercise6/img/image.jpg" style="width:500px">
 <br>My favorite website are Facebook, Youtube and Instagram.<br>
 But, I got my eyes on Ingstagram because I really like looking at beautiful images.<br>
 People share their memorable moments or one of a kind experiences and it makes me feel hapyy<br>
@@ -233,7 +233,7 @@ whenever I see some of those.
 <button type="button" onclick="document.getElementById('t3').style.display='block'">CLICK THIS!</button></th>
 
 <th><p>What makes me happy?</p>
-<p id="t4" style="display:none"><img id="myImage" src="<?php echo base_url();?>img/happy.jpg" style="width:500px">
+<p id="t4" style="display:none"><img id="myImage" src="http://localhost/Exercise6/img/happy.jpg" style="width:500px">
 <br>I like looking at comedy pictures to laugh till I hurt my stomach.
 
 </p>
