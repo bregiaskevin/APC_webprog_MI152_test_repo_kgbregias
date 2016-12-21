@@ -186,7 +186,7 @@ body {
 background-color: gray;
 </style>
 <body>
-
+<center>
 <h1>WANT TO KNOW MORE ABOUT ME?</h1>
 <th>
 <p>MY DREAM.</p>
@@ -238,7 +238,7 @@ whenever I see some of those.
 
 <button type="button" onclick="document.getElementById('t4').style.display='block'">CLICK THIS!</button>
 </th>
-
+</center>
 </body>
 
 </html>	
