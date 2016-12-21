@@ -204,7 +204,7 @@ background-color: gray;
 <p id="t1" style="display:none"><img id="myImage" src="http://localhost/Exercise6/img/boxing1.jpg" style="width:500px">
 <br>Ever since I was a kid I really like to watch boxing and play games.
 <br>Here is a photo of my idol Muhammad Ali with his favorite quote. 
-<br>It helps me relax and I like imitating my idol doing his moves.</p>
+<br>It helps me to relax and I like imitating my idol doing his moves.</p>
 
 <button type="button" onclick="document.getElementById('t1').style.display='block'">CLICK THIS!</button>
 </th>
