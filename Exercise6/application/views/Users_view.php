@@ -193,7 +193,7 @@ background-color: gray;
 <p image id="aboutme"  style="display:none"><img id="myImage" src="http://localhost/Exercise6/img/businessman.jpg" style="width:500px">
 <br>I have dream to become a businessman and to have a stable company.
 <br>I want it to be simple but known worldwide.
-<br>After being stalbe, I want to help those who're in need.
+<br>After being stable, I want to help those who're in need.
 <br>I'll have my own charity and help others.</p>
 
 <button type="button" onclick="document.getElementById('aboutme').style.display='block'">CLICK THIS!</button></th>
