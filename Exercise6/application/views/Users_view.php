@@ -212,7 +212,7 @@ background-color: gray;
 <th><p>MY INTEREST.</p>
 <p id="t2" style="display:none"><img id="myImage" src="http://localhost/Exercise6/img/doge.jpg" style="width:500px">
 <br>I REALLYYYYYYYYY LOVEEEEE ANIMALS ESPECIALLY DOGS!<br>
-I actually have a dog which is a half chihuahua and a douchound.<br>
+I actually have a  1 year old dog which is a half chihuahua and a douchound.<br>
 He's really adorable and his wagging tail beats the stress out of me every time I go home.<br>
 
 </p>
