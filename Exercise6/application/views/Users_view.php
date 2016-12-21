@@ -179,7 +179,7 @@ article {
   </tr>
 </table>
 
-<div class="container1">
+<div class="container">
 
 <style>
 body {
