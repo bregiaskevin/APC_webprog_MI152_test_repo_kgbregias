@@ -187,7 +187,7 @@ background-color: gray;
 </style>
 <body>
 
-<h1>KNOW MORE??</h1>
+<h1>WANT TO KNOW MORE ABOUT ME?</h1>
 <th>
 <p>MY DREAM.</p>
 <p image id="aboutme"  style="display:none"><img id="myImage" src="http://localhost/Exercise6/img/businessman.jpg" style="width:500px">
