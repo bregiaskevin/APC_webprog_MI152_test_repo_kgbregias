@@ -44,9 +44,7 @@ article {
 </head>
 <body>
 <div class="container">
-<header>
-   <img src="http://localhost/Exercise6/img/hi.gif" style="width:1000px;height:500px;">
-</header>
+
 
 <article>
 <style>
