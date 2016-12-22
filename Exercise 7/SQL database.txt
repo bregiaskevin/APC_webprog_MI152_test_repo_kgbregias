@@ -1,0 +1,13 @@
+CREATE DATABASE `MyHomePageSql` ;
+CREATE TABLE `MyHomePageSql`.`users` (
+`user_id` INT( 10 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`lastName` VARCHAR( 45 ) NOT NULL ,
+`firstName` VARCHAR( 45 ) NOT NULL ,
+`middleName` VARCHAR( 45 ) NOT NULL ,
+`email` VARCHAR( 45 ) NOT NULL ,
+`gender` VARCHAR( 45 ) NOT NULL ,  
+`nickname` VARCHAR( 45 ) NOT NULL ,  
+`homeAddress` VARCHAR( 45 ) ,  
+`cellphoneNo` bigint NOT NULL ,
+`comment` VARCHAR( 255 ) 
+) ENGINE = InnoDB;
